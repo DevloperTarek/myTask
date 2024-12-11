@@ -1,0 +1,190 @@
+
+/* 
+back to home area */
+.back-to-home-area{
+     position: relative;
+     transition: .4s;
+     width: 100%;
+     min-height: 500px;
+     z-index: 1;
+     text-align: center;
+}
+.back-to-home-area.area-row-bg{
+     background-color: #5F54D3;
+}
+.back-to-home-area.area-row-bg.section-padding{
+     padding: 150px 0;
+}
+.back-to-home-content .page-overview {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 12px;
+ }
+ 
+ .back-to-home-content .page-overview a {
+     background: none;
+     display: inline-block;
+     font-size: 22px;
+     border: none;
+     color: #fff;
+     letter-spacing: 1px;
+     cursor: pointer;
+     transition: .4s;
+     padding: 0;
+ }
+ 
+ .back-to-home-content .page-overview a:hover {
+     text-decoration: underline #fff;
+ }
+ 
+ .back-to-home-content .page-overview > i {
+     color: #fff;
+     font-size: 20px;
+     font-weight: 600;
+ }
+ .back-to-home-content h2 {
+     margin-bottom: 20px;
+     font-weight: 600;
+     letter-spacing: 2px;
+     font-size: 45px;
+     text-transform: uppercase;
+ }
+ .back-to-home-content .page-overview {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 12px;
+ }
+ 
+ .back-to-home-content .page-overview a {
+     background: none;
+     display: inline-block;
+     font-size: 22px;
+     border: none;
+     color: #fff;
+     letter-spacing: 1px;
+     cursor: pointer;
+     transition: .4s;
+     padding: 0;
+ }
+ .back-to-home-area .back-to-home-shape-one {
+     position: absolute;
+     right: 116px;
+     z-index: -2;
+     opacity: .2;
+     top: 20%;
+ }
+ 
+.back-to-home-area .back-to-home-shape-one img {
+      max-width: 180px;
+      transform: rotate(174deg);
+      animation: fadeInleft 1s linear infinite alternate;
+}
+     .back-to-home-area .back-to-home-shape-two {
+         position: absolute;
+         left: 0;
+         z-index: -2;
+         opacity: .2;
+         top: 50%;
+         transform: translateY(-50%);
+     }
+     .back-to-home-area .back-to-home-shape-two img {
+          max-width: 180px;
+          max-height: 500px;
+          transform: rotate(-90deg);
+          animation: fadeInRight 5s linear infinite;
+    }
+ /* back-to-home-area */
+ /* service title */
+ .section-title .short-title span {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.65px;
+    font-family: "Urbanist", sans-serif;
+    color: #FF7F63;
+    line-height: 150%;
+}
+
+.section-title h2.title {color: #141F39;font-size: 52px;line-height: 74px;font-weight: 700;margin-bottom: 10px;}
+
+.section-title .desc {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #525256;
+    margin-bottom: 0;
+    line-height: 32px;
+    margin-top: 8px;
+};
+/* service title */
+/* 
+single service area */
+.service-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 40px;
+}
+.single-grid-item .security-logo > i {
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+    /* display: block; */
+}
+.single-grid-item .security-logo {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    background: #000;
+    line-height: 91px;
+    border-radius: 32% 8%;
+    box-shadow: 0 0 90px 0 #000
+}
+.single-grid-item .security-logo::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .4s ease-out;
+    z-index: -2;
+}
+.single-grid-item:hover .security-logo::before {
+    animation: single-security-animated .4s linear alternate;
+}
+.single-grid-item h4.title {
+    margin: 20px 0 10px;
+    font-size: 26px;
+    letter-spacing: 0.20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.single-grid-item p.desc {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.single-grid-item a.border-btn > i {
+    font-size: 18px;
+    padding-left: 14px;
+    transition: .4s;
+}
+.single-grid-item {
+    padding: 40px;
+    border: 1px solid #f6f6f6;
+    box-shadow: 0 0 12px 0 #ddd;
+    transition: .4s;
+}
+
+.security-logo {
+    margin-bottom: 34px;
+}
+/* 
+single service area */

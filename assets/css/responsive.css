@@ -1,0 +1,225 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+     .project-area .project-wrapper {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          row-gap: 5px;
+          column-gap: 5px;
+      }
+     /* header top area */
+     .header-top-area .row {
+          align-items: center;
+      }
+}
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+     .project-area .project-wrapper {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          row-gap: 5px;
+          column-gap: 5px;
+      }
+      .header-middle-area .header_linking {
+          gap: 23px;
+          /* margin-top: 20px; */
+      }
+     /* header top area */
+     .header-top-area .row {
+          align-items: center;
+          flex-wrap: nowrap;
+      }
+}
+
+ 
+/* small mobile :320px. */
+@media only screen and (min-width: 320px) and (max-width: 580px) {
+     /* hero area */
+     .hero-area .single-hero-item .hero-content h1{
+          font-size: 30px;
+          font-weight: 600;
+          line-height: 50px;
+     }
+     .hero-area .single-hero-item .hero-content p{
+          font-size: 14px;
+          letter-spacing: 1px;
+          font-weight:400;
+     }
+     /* hero-area button group */
+     .group-btn {
+          flex-direction: column;
+          display: inline-block;
+          gap: 30px;
+     }
+     .group-btn a{
+          margin-bottom: 30px;
+     }
+     /* team area */
+     .team-area .team-wrapper-active .single-team {
+          width: 100%;
+      }
+     /* default section title area */
+      .section-title h4 {
+          line-height: 40px;
+      }
+     /* project area */
+      .project-area .project-wrapper {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          row-gap: 5px;
+          column-gap: 5px;
+      }
+     /* call action area */
+      .call-action h4 {
+          margin-bottom: 50px;
+          text-align: center;
+          line-height: 40px;
+          font-size: 25px;
+      }
+      .call-action .mobile-contact {
+          /* text-align: right; */
+          text-align: center;
+      }
+     /* customer area */
+     .customer-wrapper-active .owl-nav div {
+          left: 40px;
+     }
+     .customer-wrapper-active .owl-nav div.owl-prev {
+          left: auto;
+          right: 40px;
+     }
+     /* banner area */
+     /* header top area */
+     .header-top-area {
+          text-align: center;
+      }
+      .header-top-area .header-top-wrap {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+      }
+     /* header middle */
+     .header-middle-area .header_linking {
+          display: flex;
+          align-items: flex-start;
+          gap: 20px;
+          justify-content: flex-start;
+          flex-direction: column;
+          margin-top: 30px;
+      }
+      /* .menu-area {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 100%;
+          height: 100vh;
+          background: #ddd;
+          z-index: 1;
+          padding: 20px;
+          transition: .4s;
+      }
+      
+      .menu-area ul li {
+          display: block;
+          text-align: center;
+      } */
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+     /* project area */
+     .project-area .project-wrapper {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          row-gap: 5px;
+          column-gap: 5px;
+     }
+     /* customer area */
+     .customer-wrapper-active .owl-nav div {
+          left: 60px;
+     }
+     .customer-wrapper-active .owl-nav div.owl-prev {
+          left: auto;
+          right: 60px;
+     }
+    /* header top area */
+    .header-top-area .row {
+     align-items: center;
+     flex-wrap: nowrap;
+ }
+     /* header middle */
+     .header-middle-area .toggle-btn{
+          display: block;
+     }
+     .header-middle-area .header_linking{
+          display: none;
+          visibility: hidden;
+     }
+     .header-middle-area .row {
+          display: flex;
+          align-items: center;
+          flex-wrap: nowrap;
+      }
+     /* main header */
+     .header-menu{
+          display: none;
+          visibility: hidden;
+          opacity: 0;
+     }
+}
+@media only screen and (min-width: 220px) and (max-width: 350px){
+     /* header top */
+     .header-top-area {
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+      }
+     .header-top-wrap  p {
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 20px;
+          text-align: left;
+      }
+      .header-top-area .socal-links i {
+          font-size: 14px;
+          margin-left: 10px;
+      }
+      /* hero area */
+     .hero-area .single-hero-item .hero-content h1{
+          font-size: 30px;
+          font-weight: 600;
+          line-height: 50px;
+     }
+     /* default section title area */
+     .section-title h4 {
+          line-height: 40px;
+      }
+     /* project area */
+      .project-area .project-wrapper {
+          display: grid;
+          grid-template-columns: auto;
+          row-gap: 40px;
+      }
+      .project-area .project-wrapper {
+          display: grid;
+          grid-template-columns: 1fr;
+          row-gap: 5px;
+          column-gap: 5px;
+      }
+     /* hero-area button group */
+     .group-btn {
+          flex-direction: column;
+          display: inline-block;
+          gap: 30px;
+     }
+     .group-btn a{
+          margin-bottom: 30px;
+     }
+}
